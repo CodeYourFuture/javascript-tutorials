@@ -1,3 +1,7 @@
+# Variables
+
+Read through this [intro to Javascript](http://tutorials.codebar.io/js/lesson1/tutorial.html) up to the chapter **Functions** and then try your hand at these exercises.
+
 ## The Fortune Teller
 
 Why pay a fortune teller when you can just program your fortune yourself?
