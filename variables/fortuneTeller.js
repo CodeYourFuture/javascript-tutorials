@@ -1,5 +1,5 @@
-var x = 'engineer';
-var y = 'london';
-var z = 'Firas';
-var n = '3';
-console.log('You will be a '+x+'in '+y+' ,and married to '+z+' with '+n+' kids.');
+var title = 'engineer';
+var location = 'london';
+var partner = 'Firas';
+var kids = '3';
+console.log('You will be a '+title+'in '+location+' ,and married to '+partner+' with '+kids+' kids.');
