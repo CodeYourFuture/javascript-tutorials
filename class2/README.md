@@ -19,23 +19,29 @@ All the files are required in `index.html` file, but they are commented out. Whe
 
 When you move to next exercise, again comment out the one you worked before and uncomment the next you are going to work on.
 
+**Tip**
+
+You can print to console with old known `console.log("message");`, or you can write also to HTML document directly with `document.write('message' + '<br />')`.
+
 ### Conditions
 
 #### Light switch program
 file: `light_switch.js`
 
-- Use boolean variable to store information that the room is dark, or not.
+- Use a boolean variable to store information that the room is dark, or not.
 - Write a condition which tells to switch the light on if the room is dark. You can print it to console using `console.log('Turn the light on')`
 
 #### Buying a pizza program
 file: `buy_pizza.js`
+Check whether you have enough money to buy a pizza.
 
 - Store into variables: how much money you have, what is the cost of the pizza.
 - Write a condition to find out whether you have enough money to buy a pizza. If user does not have enough money, tell them how much more do they need to buy a pizza.
 
 #### Do not forget your size for shirts again
+This program helps with choosing a shirt size based on the size of chest.
 
-- Store information about the sizes: S, M, L, XXL.
+- Store information about the sizes: S, M, L, XL.
 
 | name   | size (cm) |
 ---------|------------
@@ -45,7 +51,7 @@ file: `buy_pizza.js`
 | XL     | 106       |
 
 
-- Store your size
+- Store a size in (cm)
 - Write program that calculate a name of the size.
 - Hint: size S is between 91 and 96, but does not include 96.
 
@@ -59,7 +65,7 @@ Keep flipping a coin until you get head.
 Face of the coin is represented with number 1 for head and 0 for face. The **coin is flipped** by "randomly"  generating value 1 or 2. JavaScript build-in function can do this `Math.floor(Math.random() * 2)`. We will learn about functions soon, you don't have to understand what it means yet.
 
 - Flip a coin and assign it to a variable
-- Using a *while* loop to test whether the flip is face of tail. If it is tail, print the message telling user had no luck and flip coin again.
+- Use a loop to test whether the flip is face of tail. If it is a tail, print the message telling user had no luck and flip coin again.
 - The program is expected to finish when the user got head (flip function generated number 1). Print to the console message telling user that got head.
 
 #### Food server
@@ -68,16 +74,18 @@ file: `food_server.js`
 Don't let customers hungry.
 
 - store number of customers
-- use *while* loop to server food as many times as there is number of customers. Each time print to console message that you are serving and number of the customer.
+- use a loop to server food as many times as there is number of customers. Each time print to console message that you are serving and number of the customer.
 
 ### Functions
 
 #### Coin flipper with function
 file: `flip_coin.js`
 
-In coin flipper program, we flip the coin twice. We use for this expression `Math.floor(Math.random() * 2)` which is not very clear what it means at the first look. We can do better.
+In coin flipper program, we flip the coin on two places. We use for this expression `Math.floor(Math.random() * 2)` and it is not very clear to understand what it means at the first look. We can do better.
 
 - Change your program to use function instead of `Math.floor(Math.random() * 2)` to flip the coin.
+
+Look on the code, can you change it to flip the coin only once?
 
 #### Sum it!
 file: `adder.js`
@@ -106,12 +114,7 @@ Instructions for the body of vendorMachineServe function:
   - print to console message saying you are serving the food and repeat the name of the item e.g. _cheesecake_
   - print to console goodbye message
 - If the passphrase is not correct
-  - print to console message something like `console.log("Oh no, you don't know the secret.");`
-
-### Side Note
-You can also use `alert('message')` function to show a pop-up window instead of printing to console with `console.log('message')` if you find it more useful.
-In the next classes we will learn how to write these results on the web page what will be much more cool.
-  
+  - print to console message something like `console.log("Oh no, you don't know the secret.");`  
 
 ## Assignment
 ### Lets build a game - *Rock, Scissors, Paper*
